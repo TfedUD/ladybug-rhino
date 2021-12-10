@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ladybug_rhino.openstudio &#8212; ladybug-rhino  documentation</title>
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js "></script>
+<script type="text/javascript" src="../../_static/js/jquery-fix.js "></script>
+<script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js "></script>
+<script type="text/javascript" src="../../_static/bootstrap-sphinx.js "></script>
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html">
+          ladybug-rhino</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../cli/index.html">CLI Docs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../cli/index.html#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../cli/index.html#commands">Commands</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../cli/main.html">main</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../cli/main.html#ladybug-rhino">ladybug-rhino</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../cli/main.html#ladybug-rhino-viz">viz</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../cli/main.html#ladybug-rhino-set-python-search">set-python-search</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../cli/main.html#ladybug-rhino-copy-gh-components">copy-gh-components</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../cli/main.html#ladybug-rhino-remove-gh-components">remove-gh-components</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../modules.html">ladybug_rhino</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../ladybug_rhino.html">ladybug_rhino package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../ladybug_rhino.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.cli.html">ladybug_rhino.cli package</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../ladybug_rhino.cli.html#module-ladybug_rhino.cli">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.versioning.html">ladybug_rhino.versioning package</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../ladybug_rhino.versioning.html#submodules">Submodules</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../ladybug_rhino.versioning.component.html">ladybug_rhino.versioning.component module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../ladybug_rhino.versioning.diff.html">ladybug_rhino.versioning.diff module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../ladybug_rhino.versioning.export.html">ladybug_rhino.versioning.export module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../ladybug_rhino.versioning.gather.html">ladybug_rhino.versioning.gather module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../ladybug_rhino.versioning.release.html">ladybug_rhino.versioning.release module</a></li>
+<li class="toctree-l6"><a class="reference internal" href="../../ladybug_rhino.versioning.userobject.html">ladybug_rhino.versioning.userobject module</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../ladybug_rhino.versioning.html#module-ladybug_rhino.versioning">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../ladybug_rhino.html#submodules">Submodules</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.bakegeometry.html">ladybug_rhino.bakegeometry module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.bakeobjects.html">ladybug_rhino.bakeobjects module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.baketext.html">ladybug_rhino.baketext module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.color.html">ladybug_rhino.color module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.colorize.html">ladybug_rhino.colorize module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.config.html">ladybug_rhino.config module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.download.html">ladybug_rhino.download module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.fromgeometry.html">ladybug_rhino.fromgeometry module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.fromobjects.html">ladybug_rhino.fromobjects module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.ghpath.html">ladybug_rhino.ghpath module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.grasshopper.html">ladybug_rhino.grasshopper module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.intersect.html">ladybug_rhino.intersect module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.light.html">ladybug_rhino.light module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.openstudio.html">ladybug_rhino.openstudio module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.planarize.html">ladybug_rhino.planarize module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.pythonpath.html">ladybug_rhino.pythonpath module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.text.html">ladybug_rhino.text module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.togeometry.html">ladybug_rhino.togeometry module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../ladybug_rhino.viewport.html">ladybug_rhino.viewport module</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../ladybug_rhino.html#module-ladybug_rhino">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../cli/index.html">CLI Docs</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../modules.html">ladybug_rhino</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+              
+            
+            
+            
+            
+              <li class="hidden-sm"></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-4">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../cli/index.html">CLI Docs</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../modules.html">ladybug_rhino</a></li>
+</ul>
+
+        </div>
+      </div>
+    <div class="body col-md-8 content" role="main">
+      
+  <h1>Source code for ladybug_rhino.openstudio</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;Functions for importing OpenStudio into the Python environment.&quot;&quot;&quot;</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">shutil</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="kn">import</span> <span class="nn">clr</span>
+<span class="k">except</span> <span class="ne">ImportError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>  <span class="c1"># No .NET being used</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Failed to import CLR. OpenStudio SDK is unavailable.</span><span class="se">\n</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">honeybee_energy.config</span> <span class="kn">import</span> <span class="n">folders</span>
+<span class="k">except</span> <span class="ne">ImportError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Failed to import honeybee_energy. &#39;</span>
+          <span class="s1">&#39;OpenStudio SDK is unavailable.</span><span class="se">\n</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
+
+
+<div class="viewcode-block" id="load_osm"><a class="viewcode-back" href="../../ladybug_rhino.openstudio.html#ladybug_rhino.openstudio.load_osm">[docs]</a><span class="k">def</span> <span class="nf">load_osm</span><span class="p">(</span><span class="n">osm_path</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Load an OSM file to an OpenStudio SDK Model object in the Python environment.</span>
+<span class="sd">    </span>
+<span class="sd">    Args:</span>
+<span class="sd">        osm_path: The path to an OSM file to be loaded an an OpenStudio Model.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        An OpenStudio Model object derived from the input osm_path.</span>
+
+<span class="sd">    Usage:</span>
+
+<span class="sd">    .. code-block:: python</span>
+
+<span class="sd">        from ladybug_rhino.openstudio import load_osm</span>
+
+<span class="sd">        # load an OpenStudio model from an OSM file</span>
+<span class="sd">        osm_path = &#39;C:/path/to/model.osm&#39;</span>
+<span class="sd">        os_model = load_osm(osm_path)</span>
+
+<span class="sd">        # get the space types from the model</span>
+<span class="sd">        os_space_types = os_model.getSpaceTypes()</span>
+<span class="sd">        for spt in os_space_types:</span>
+<span class="sd">            print(spt)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># check that the file exists and OpenStudio is installed</span>
+    <span class="k">assert</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isfile</span><span class="p">(</span><span class="n">osm_path</span><span class="p">),</span> <span class="s1">&#39;No OSM file was found at &quot;</span><span class="si">{}</span><span class="s1">&quot;.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">osm_path</span><span class="p">)</span>
+    <span class="n">ops</span> <span class="o">=</span> <span class="n">import_openstudio</span><span class="p">()</span>
+
+    <span class="c1"># load the model object and return it</span>
+    <span class="n">os_path</span> <span class="o">=</span> <span class="n">ops</span><span class="o">.</span><span class="n">OpenStudioUtilitiesCore</span><span class="o">.</span><span class="n">toPath</span><span class="p">(</span><span class="n">osm_path</span><span class="p">)</span>
+    <span class="n">osm_path_obj</span> <span class="o">=</span> <span class="n">ops</span><span class="o">.</span><span class="n">Path</span><span class="p">(</span><span class="n">os_path</span><span class="p">)</span>
+    <span class="n">exist_os_model</span> <span class="o">=</span> <span class="n">ops</span><span class="o">.</span><span class="n">Model</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">osm_path_obj</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">exist_os_model</span><span class="o">.</span><span class="n">is_initialized</span><span class="p">():</span>
+        <span class="k">return</span> <span class="n">exist_os_model</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+            <span class="s1">&#39;The file at &quot;</span><span class="si">{}</span><span class="s1">&quot; does not appear to be an OpenStudio model.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                <span class="n">osm_path</span>
+            <span class="p">))</span></div>
+
+
+<div class="viewcode-block" id="dump_osm"><a class="viewcode-back" href="../../ladybug_rhino.openstudio.html#ladybug_rhino.openstudio.dump_osm">[docs]</a><span class="k">def</span> <span class="nf">dump_osm</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">osm_path</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Dump an OpenStudio Model object to an OSM file.</span>
+<span class="sd">    </span>
+<span class="sd">    Args:</span>
+<span class="sd">        model: An OpenStudio Model to be written to a file.</span>
+<span class="sd">        osm_path: The path of the .osm file where the OpenStudio Model will be saved.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        The path to the .osm file as a string.</span>
+
+<span class="sd">    Usage:</span>
+
+<span class="sd">    .. code-block:: python</span>
+
+<span class="sd">        from ladybug_rhino.openstudio import load_osm, dump_osm</span>
+
+<span class="sd">        # load an OpenStudio model from an OSM file</span>
+<span class="sd">        osm_path = &#39;C:/path/to/model.osm&#39;</span>
+<span class="sd">        model = load_osm(osm_path)</span>
+
+<span class="sd">        # get all of the SetpointManagers and set their properties</span>
+<span class="sd">        setpt_managers = model.getSetpointManagerOutdoorAirResets()</span>
+<span class="sd">        for setpt in setpt_managers:</span>
+<span class="sd">            setpt.setSetpointatOutdoorLowTemperature(19)</span>
+<span class="sd">            setpt.setOutdoorLowTemperature(12)</span>
+<span class="sd">            setpt.setSetpointatOutdoorHighTemperature(16)</span>
+<span class="sd">            setpt.setOutdoorHighTemperature(22)</span>
+
+<span class="sd">        # save the edited OSM over the original one</span>
+<span class="sd">        osm = dump_osm(model, osm_path)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># check that the model is the correct object type</span>
+    <span class="n">ops</span> <span class="o">=</span> <span class="n">import_openstudio</span><span class="p">()</span>
+    <span class="k">assert</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">ops</span><span class="o">.</span><span class="n">Model</span><span class="p">),</span> \
+        <span class="s1">&#39;Expected OpenStudio Model. Got </span><span class="si">{}</span><span class="s1">.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">model</span><span class="p">))</span>
+
+    <span class="c1"># load the model object and return it</span>
+    <span class="n">os_path</span> <span class="o">=</span> <span class="n">ops</span><span class="o">.</span><span class="n">OpenStudioUtilitiesCore</span><span class="o">.</span><span class="n">toPath</span><span class="p">(</span><span class="n">osm_path</span><span class="p">)</span>
+    <span class="n">osm_path_obj</span> <span class="o">=</span> <span class="n">ops</span><span class="o">.</span><span class="n">Path</span><span class="p">(</span><span class="n">os_path</span><span class="p">)</span>
+    <span class="n">model</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">osm_path_obj</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">osm_path</span></div>
+
+
+<div class="viewcode-block" id="import_openstudio"><a class="viewcode-back" href="../../ladybug_rhino.openstudio.html#ladybug_rhino.openstudio.import_openstudio">[docs]</a><span class="k">def</span> <span class="nf">import_openstudio</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;Import the OpenStudio SDK into the Python environment.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        The OpenStudio NameSpace with all of the modules, classes and methods</span>
+<span class="sd">        of the OpenStudio SDK.</span>
+
+<span class="sd">    Usage:</span>
+
+<span class="sd">    .. code-block:: python</span>
+
+<span class="sd">        from ladybug_rhino.openstudio import import_openstudio, dump_osm</span>
+<span class="sd">        OpenStudio = import_openstudio()</span>
+
+<span class="sd">        # create a new OpenStudio model from scratch</span>
+<span class="sd">        os_model = OpenStudio.Model()</span>
+<span class="sd">        space_type = OpenStudio.SpaceType(os_model)</span>
+
+<span class="sd">        # save the Model to an OSM</span>
+<span class="sd">        osm_path = &#39;C:/path/to/model.osm&#39;</span>
+<span class="sd">        osm = dump_osm(os_model, osm_path)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">try</span><span class="p">:</span>  <span class="c1"># first see if OpenStudio has already been loaded</span>
+        <span class="kn">import</span> <span class="nn">OpenStudio</span>
+        <span class="k">return</span> <span class="n">OpenStudio</span>
+    <span class="k">except</span> <span class="ne">ImportError</span><span class="p">:</span>
+        <span class="c1"># check to be sure that the OpenStudio CSharp folder has been installed</span>
+        <span class="n">compatibility_url</span> <span class="o">=</span> <span class="s1">&#39;https://github.com/ladybug-tools/lbt-grasshopper/wiki/&#39;</span> \
+        <span class="s1">&#39;1.4-Compatibility-Matrix&#39;</span>
+        <span class="n">in_msg</span> <span class="o">=</span> <span class="s1">&#39;Download and install the version of OpenStudio listed in the &#39;</span> \
+            <span class="s1">&#39;Ladybug Tools compatibility matrix</span><span class="se">\n</span><span class="si">{}</span><span class="s1">.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">compatibility_url</span><span class="p">)</span>
+        <span class="k">assert</span> <span class="n">folders</span><span class="o">.</span><span class="n">openstudio_path</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">,</span> \
+            <span class="s1">&#39;No OpenStudio installation was found on this machine.</span><span class="se">\n</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">in_msg</span><span class="p">)</span>
+        <span class="k">assert</span> <span class="n">folders</span><span class="o">.</span><span class="n">openstudio_csharp_path</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">,</span> \
+            <span class="s1">&#39;No OpenStudio CSharp folder was found in the OpenStudio installation &#39;</span> \
+            <span class="s1">&#39;at:</span><span class="se">\n</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">folders</span><span class="o">.</span><span class="n">openstudio_path</span><span class="p">))</span>
+        <span class="n">_copy_openstudio_lib</span><span class="p">()</span>
+
+        <span class="c1"># add the OpenStudio DLL to the Common Language Runtime (CLR)</span>
+        <span class="n">os_dll</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">folders</span><span class="o">.</span><span class="n">openstudio_csharp_path</span><span class="p">,</span> <span class="s1">&#39;OpenStudio.dll&#39;</span><span class="p">)</span>
+        <span class="n">clr</span><span class="o">.</span><span class="n">AddReferenceToFileAndPath</span><span class="p">(</span><span class="n">os_dll</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">folders</span><span class="o">.</span><span class="n">openstudio_csharp_path</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="p">:</span>
+            <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">folders</span><span class="o">.</span><span class="n">openstudio_csharp_path</span><span class="p">)</span>
+        <span class="kn">import</span> <span class="nn">OpenStudio</span>
+        <span class="k">return</span> <span class="n">OpenStudio</span></div>
+
+
+<span class="k">def</span> <span class="nf">_copy_openstudio_lib</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;Copy the openstudiolib.dll into the CSharp folder.</span>
+
+<span class="sd">    This is a workaround that is necessary because the OpenStudio installer</span>
+<span class="sd">    does not install the CSharp bindings correctly.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># see if the CSharp folder already has everything it needs</span>
+    <span class="n">dest_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">folders</span><span class="o">.</span><span class="n">openstudio_csharp_path</span><span class="p">,</span> <span class="s1">&#39;openstudiolib.dll&#39;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isfile</span><span class="p">(</span><span class="n">dest_file</span><span class="p">):</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    
+    <span class="c1"># if not, see if the openstudio_lib_path has the file that needs to be copied</span>
+    <span class="n">base_msg</span> <span class="o">=</span> <span class="s1">&#39;The OpenStudio CSharp path at &quot;</span><span class="si">{}</span><span class="s1">&quot; lacks the openstudiolib.dll&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+        <span class="n">folders</span><span class="o">.</span><span class="n">openstudio_csharp_path</span><span class="p">)</span>
+    <span class="k">assert</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">folders</span><span class="o">.</span><span class="n">openstudio_lib_path</span><span class="p">),</span> \
+        <span class="s1">&#39;</span><span class="si">{}</span><span class="se">\n</span><span class="s1">and there is no OpenStudio Lib installed.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">base_msg</span><span class="p">)</span>
+    <span class="n">src_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">folders</span><span class="o">.</span><span class="n">openstudio_lib_path</span><span class="p">,</span> <span class="s1">&#39;openstudiolib.dll&#39;</span><span class="p">)</span>
+    <span class="k">assert</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isfile</span><span class="p">(</span><span class="n">src_file</span><span class="p">),</span> \
+        <span class="s1">&#39;</span><span class="si">{}</span><span class="se">\n</span><span class="s1">and this file was not found at &quot;</span><span class="si">{}</span><span class="s1">&quot;.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">base_msg</span><span class="p">,</span> <span class="n">src_file</span><span class="p">)</span>
+    
+    <span class="c1"># copy the DLL if it exists</span>
+    <span class="n">shutil</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="n">src_file</span><span class="p">,</span> <span class="n">dest_file</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2021, Ladybug Tools.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.3.1.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
